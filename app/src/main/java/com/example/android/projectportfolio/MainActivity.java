@@ -1,6 +1,5 @@
 package com.example.android.projectportfolio;
 
-import android.os.Message;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.View;
@@ -28,7 +27,7 @@ public class MainActivity extends AppCompatActivity {
         Button popular_movies = (Button) findViewById(R.id.popular_movies);
         popular_movies.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                showMyToast("This Will Open Popular Movies");
+                showMyToast(getApplicationContext().getString(R.string.popular_movies_toast));
             }
         });
 
@@ -36,7 +35,7 @@ public class MainActivity extends AppCompatActivity {
         Button stock_hawk = (Button) findViewById(R.id.stock_hawk);
         stock_hawk.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                showMyToast("This Will Open Stock Hawk");
+                showMyToast(getApplicationContext().getString(R.string.stock_hawk_toast));
             }
         });
 
@@ -44,7 +43,7 @@ public class MainActivity extends AppCompatActivity {
         Button build_it_bigger = (Button) findViewById(R.id.build_it_bigger);
         build_it_bigger.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                showMyToast("This Will Open Build It Bigger");
+                showMyToast(getApplicationContext().getString(R.string.build_it_bigger_toast));
             }
         });
 
@@ -52,7 +51,7 @@ public class MainActivity extends AppCompatActivity {
         Button make_your_app_material = (Button) findViewById(R.id.make_your_app_material);
         make_your_app_material.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                showMyToast("This Will Open Make Your App Material");
+                showMyToast(getApplicationContext().getString(R.string.make_your_own_app_material_toast));
             }
         });
 
@@ -60,7 +59,7 @@ public class MainActivity extends AppCompatActivity {
         Button go_ubiquitous = (Button) findViewById(R.id.go_ubiquitous);
         go_ubiquitous.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                showMyToast("This Will Open Go Ubiquitous");
+                showMyToast(getApplicationContext().getString(R.string.go_ubiquitous_toast));
             }
         });
 
@@ -68,7 +67,7 @@ public class MainActivity extends AppCompatActivity {
         Button capstone = (Button) findViewById(R.id.capstone);
         capstone.setOnClickListener(new View.OnClickListener() {
             public void onClick(View v) {
-                showMyToast("This Will Open Capstone");
+                showMyToast(getApplicationContext().getString(R.string.capstone_toast));
             }
         });
 

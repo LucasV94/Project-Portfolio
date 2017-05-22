@@ -1,3 +1,24 @@
 <resources>
+
     <string name="app_name">Project Portfolio</string>
+
+    <!-- Display App Strings -->
+    <string name="top_title">My Apps</string>
+    <string name="popular_movies">Popular Movies</string>
+    <string name="stock_hawk">Stock Hawk</string>
+    <string name="build_it_bigger">Build it Bigger</string>
+    <string name="make_your_own_app_material">Make Your Own App Material</string>
+    <string name="go_ubiquitous">Go Ubiquitous</string>
+    <string name="capstone">Capstone</string>
+
+
+    <!-- Open App Strings -->
+    <string name="popular_movies_toast">This will open Popular Movies</string>
+    <string name="stock_hawk_toast">This will open Stock Hawk</string>
+    <string name="build_it_bigger_toast">This will open Build it Bigger</string>
+    <string name="make_your_own_app_material_toast">This will open M.Y.O.A.M</string>
+    <string name="go_ubiquitous_toast">This will open Go Ubiquitous</string>
+    <string name="capstone_toast">This will open Capstone</string>
+
+
 </resources>
